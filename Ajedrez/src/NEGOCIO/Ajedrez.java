@@ -32,7 +32,7 @@ public class Ajedrez {
 		JG2= new Jugador(COLOR_NEGRO, alias2);
 	}
 	
-	public static boolean movPermitido()
+	public static boolean movPermitido(int fp, int cp, int f, int c, Matriz mZ)
 	{
 		return true;
 	}
@@ -40,6 +40,11 @@ public class Ajedrez {
 	public static boolean esComidaPeon()
 	{
 		return true;
+	}
+
+	public void cambiarTurno() {
+		
+		
 	}
 
 }

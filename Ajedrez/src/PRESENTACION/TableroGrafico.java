@@ -43,7 +43,7 @@ public class TableroGrafico extends JPanel
 				{
 					int nro=tb.MZ.obtenerEle(f, c);
 					Image img= Toolkit.getDefaultToolkit().getImage(nro+".png");
-					g2.drawImage(img, px, py, 60, 60, this);
+					g2.drawImage(img, px, py, 50, 50, this);
 				}
 				
 				px= px + 75;
